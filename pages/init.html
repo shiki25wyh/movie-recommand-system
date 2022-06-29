@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="referrer" content="no-referrer"/>
+    <title>Movie Recommender System</title>
+    <link rel="stylesheet" type="text/css" href="css/vid-list.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="./js/ajax.js"></script>
+    <script src="./js/cookie.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+      crossorigin="anonymous"></script>
+      <script src="./js/init.js"></script>
+</head>
+
+
+
+<body>
+    
+    <div id="maindiv" style="padding: 3%;">
+        <p style="font-size: 40px;">choose your prefer</p>
+    </div>
+    <div id="bottomdiv" style="height: 10vh;width: 50%;padding-left: 5%;">
+        <div class="columns">
+            <div class="column">
+                <div class="card result" id="step1"
+                    style="border-style:solid;border-width:2px;height:10vh;background-image:url(./img/empty.jpg);background-size:cover;">
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="card result" id="step2"
+                    style="border-style:solid;border-width:2px;height:10vh;background-image:url(./img/empty.jpg);background-size:cover;">
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="card result" id="step3"
+                    style="border-style:solid;border-width:2px;height:10vh;background-image:url(./img/empty.jpg);background-size:cover;">
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="card result" id="step4"
+                    style="border-style:solid;border-width:2px;height:10vh;background-image:url(./img/empty.jpg);background-size:cover;">
+
+                </div>
+            </div>
+            <div class="column">
+                <button class="button is-primary" style="margin: 0;" disabled="true">Next</button>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="card" id="samplecard" style="display: none;">
+        <img class="img" style="height: 100%;width: 100%;object-fit:cover;" >
+        <div
+            style="position: absolute;bottom: 0;backdrop-filter: blur(10px);width: 100%;background-color:rgb(0,0,0,0.5);">
+            <p style="color:white;" class="word">empty</p>
+            <p class="itemid" style="display: none;"></p>
+            <p class="imageurl" style="display: none;"></p>
+        </div>
+    </div>
+</body>
+
+<style>
+        body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+        background: linear-gradient(120deg, #2177b0, #a961c8);
+        background-attachment: fixed;
+
+
+    }
+</style>
+</html>

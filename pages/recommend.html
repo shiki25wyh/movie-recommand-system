@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="referrer" content="no-referrer" />
+  <title>Movie Recommender System</title>
+
+  <link rel="stylesheet" type="text/css" href="css/vid-list.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="./js/ajax.js"></script>
+  <script src="./js/cookie.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+    crossorigin="anonymous"></script>
+    <script src="./js/recommend.js"></script>
+</head>
+
+
+
+
+<body>
+
+  <div class="recommend">
+
+
+
+    <div class="vid-list">
+      <a class="pic" href="#"><img id="img_0" src="./img/empty.jpg" alt=""></a>
+      <div class="info">
+        <a class="buttonf" href="#" id="btnf0"><i class="large material-icons"
+            style="font-size: 40px;">thumb_down</i></a>
+        <a class="moviename" href="" id="moviename_0">BATMAN (2022)</a>
+        <a class="buttont" href="#" id="btnt0"><i class="large material-icons" style="font-size: 40px;">thumb_up</i></a>
+      </div>
+    </div>
+
+
+    <div class="vid-list">
+      <a class="pic" href="#"><img id="img_1" src="./img/empty.jpg" alt=""></a>
+      <div class="info">
+        <a class="buttonf" href="#" id="btnf1"><i class="large material-icons"
+            style="font-size: 40px;">thumb_down</i></a>
+        <a class="moviename" href="" id="moviename_1">BATMAN (2022)</a>
+        <a class="buttont" href="#" id="btnt1"><i class="large material-icons" style="font-size: 40px;">thumb_up</i></a>
+      </div>
+    </div>
+
+
+
+    <div class="vid-list">
+      <a class="pic" href="#"><img id="img_2" src="./img/empty.jpg" alt=""></a>
+      <div class="info">
+        <a class="buttonf" href="#" id="btnf2"><i class="large material-icons"
+            style="font-size: 40px;">thumb_down</i></a>
+        <a class="moviename" href="" id="moviename_2">BATMAN (2022)</a>
+        <a class="buttont" href="#" id="btnt2"><i class="large material-icons" style="font-size: 40px;">thumb_up</i></a>
+      </div>
+    </div>
+
+
+    <div class="vid-list">
+      <a class="pic" href="#"><img id="img_3" src="./img/empty.jpg" alt=""></a>
+      <div class="info">
+        <a class="buttonf" href="#" id="btnf3"><i class="large material-icons"
+            style="font-size: 40px;">thumb_down</i></a>
+        <a class="moviename" href="" id="moviename_3">BATMAN (2022)</a>
+        <a class="buttont" href="#" id="btnt3"><i class="large material-icons" style="font-size: 40px;">thumb_up</i></a>
+      </div>
+    </div>
+
+
+
+    <div class="vid-list">
+      <a class="pic" href="#"><img id="img_4" src="./img/empty.jpg" alt=""></a>
+      <div class="info">
+        <a class="buttonf" href="#" id="btnf4"><i class="large material-icons"
+            style="font-size: 40px;">thumb_down</i></a>
+        <a class="moviename" href="" id="moviename_4">BATMAN (2022)</a>
+        <a class="buttont" href="#" id="btnt4"><i class="large material-icons" style="font-size: 40px;">thumb_up</i></a>
+      </div>
+    </div>
+
+
+    <div class="vid-list">
+      <a class="pic" href="#"><img id="img_5" src="./img/empty.jpg" alt=""></a>
+      <div class="info">
+        <a class="buttonf" href="#" id="btnf5"><i class="large material-icons"
+            style="font-size: 40px;">thumb_down</i></a>
+        <a class="moviename" href="" id="moviename_5">BATMAN (2022)</a>
+        <a class="buttont" href="#" id="btnt5"><i class="large material-icons" style="font-size: 40px;">thumb_up</i></a>
+      </div>
+    </div>
+
+
+
+    <div class="vid-list">
+      <a class="pic" href="#"><img id="img_6" src="./img/empty.jpg" alt=""></a>
+      <div class="info">
+        <a class="buttonf" href="#" id="btnf6"><i class="large material-icons"
+            style="font-size: 40px;">thumb_down</i></a>
+        <a class="moviename" href="" id="moviename_6">BATMAN (2022)</a>
+        <a class="buttont" href="#" id="btnt6"><i class="large material-icons" style="font-size: 40px;">thumb_up</i></a>
+      </div>
+    </div>
+
+
+
+    <div class="vid-list">
+      <a class="pic" href="#"><img id="img_7" src="./img/empty.jpg" alt=""></a>
+      <div class="info">
+        <a class="buttonf" href="#" id="btnf7"><i class="large material-icons"
+            style="font-size: 40px;">thumb_down</i></a>
+        <a class="moviename" href="" id="moviename_7">BATMAN (2022)</a>
+        <a class="buttont" href="#" id="btnt7"><i class="large material-icons" style="font-size: 40px;">thumb_up</i></a>
+      </div>
+    </div>
+
+
+    <div class="vid-list">
+      <a class="pic" href="#"><img id="img_8" src="./img/empty.jpg" alt=""></a>
+      <div class="info">
+        <a class="buttonf" href="#" id="btnf8"><i class="large material-icons"
+            style="font-size: 40px;">thumb_down</i></a>
+        <a class="moviename" href="" id="moviename_8">BATMAN (2022)</a>
+        <a class="buttont" href="#" id="btnt8"><i class="large material-icons" style="font-size: 40px;">thumb_up</i></a>
+      </div>
+    </div>
+
+    <div class="vid-list">
+      <a class="pic" href="#"><img id="img_9" src="./img/empty.jpg" alt=""></a>
+      <div class="info">
+        <a class="buttonf" href="#" id="btnf9"><i class="large material-icons"
+            style="font-size: 40px;">thumb_down</i></a>
+        <a class="moviename" href="" id="moviename_9">BATMAN (2022)</a>
+        <a class="buttont" href="#" id="btnt9"><i class="large material-icons" style="font-size: 40px;">thumb_up</i></a>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+</body>
+<style>
+  .recommend {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 16px;
+
+  }
+</style>
+
+
+
+
+
+
+</html>

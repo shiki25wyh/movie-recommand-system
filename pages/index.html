@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"
+        integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+    <script src="./js/ajax.js"></script>
+    <script src="./js/cookie.js"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+
+
+
+<body>
+
+
+    <div class="mobile-navbar">
+        <ul class="mobile-nav" id="mobile-nav">
+            <li><a href="" >Home</a></li>
+            <li><a href="#" id="Recommend">Recommend</a></li>
+            <li><a href="login.html">Log Out</a></li>
+        </ul>
+        <div id="menu-bar">
+            <div id="meun" onclick="onClickMeun()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+        </div>
+        <div class="menu-bg" id="menu-bg"></div>
+    </div>
+
+
+
+
+
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="pic/images.png" alt="">
+            <div class="button">
+                <div class="btn" id="Home"><a href="">Home</a></div>
+                <div class="btn" id="Recommend2"><a href="#">Recommend</a></div>
+            </div>
+        </div>
+
+
+        <div class="nav-right flex-div">
+            <div class="search-box flex-div">
+                <div class="search-input">
+                    <input type="text" placeholder="Search" id="searchinput">
+                    <!-- <ul class="auto" style="overflow-y: auto;z-index: 999;">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                    </ul> -->
+                    <select id="select" style="position: absolute;top:50px;left:0px;width: 100%;display: none;">
+                       
+                    </select>
+                </div>
+
+                <a href="#" id="searchb"><i class="large material-icons" style="font-size: 40px;">search</i></a>
+            </div>
+            <a class="usericon" href="login.html"><i class="large material-icons" style="font-size: 40px;">account_circle</i></a>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+    <div class="container" id="container">
+        <h1>welcome</h1>
+        <p>This website is used to recommend movies, Press Start to start the journey.</p>
+
+        <a href="#" id="start">start</a>
+    </div>
+
+    <div class="recommend" id="recommend"></div>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>

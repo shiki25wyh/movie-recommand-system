@@ -1,0 +1,79 @@
+.vid-list {
+
+
+  text-align: center;
+  transform: scale2d(0px 0px);
+  transition: 1s all;
+  cursor: pointer;
+  border-radius: 20px;
+  display: block;
+  align-items: center;
+
+}
+
+.vid-list:hover {
+  box-shadow: 6px 6px 40px 10px rgb(62, 55, 77);
+  transform: scale2d(1.02, 1.02);
+
+}
+
+
+.vid-list img {
+  padding: 10px;
+  width: 15rem;
+  height: 18rem;
+  border-radius: 20px;
+}
+
+.info {
+  width: 100%;
+  margin: 2px;
+  display: flex;
+
+}
+
+.info .buttonf {
+  position: relative;
+  left: 2px;
+  width: 25%;
+  border-radius: 25px;
+
+}
+
+.info .buttont {
+  position: relative;
+  right: 2px;
+  flex-direction: row-reverse;
+  width: 25%;
+  border-radius: 25px;
+}
+
+.info .moviename{
+  position: relative;
+  width: 50%;
+  text-align: center;
+  
+}
+
+
+/* 
+.info .button {
+  width: 25%;
+  border-radius: 25px;
+}
+ */
+
+
+.info .buttont:active {
+  color: red;
+}
+
+.info .buttonf:active {
+  color: red;
+}
+
+.info a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+
+}
